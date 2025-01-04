@@ -1,7 +1,6 @@
 services:
-  testnanaloga1.api:
-    image: ${DOCKER_REGISTRY-}testnanaloga1api
-    container_name: zahtevek.api
+  testnanaloga1:
+    image: ${DOCKER_REGISTRY-}testnanaloga1
     build:
       context: .
       dockerfile: TestnaNaloga1/Dockerfile

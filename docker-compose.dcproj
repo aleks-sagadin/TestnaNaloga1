@@ -4,10 +4,10 @@
     <ProjectVersion>2.1</ProjectVersion>
     <DockerTargetOS>Linux</DockerTargetOS>
     <DockerPublishLocally>False</DockerPublishLocally>
-    <ProjectGuid>4ca9bd66-17c4-45cb-8157-7c320e66972b</ProjectGuid>
+    <ProjectGuid>8b93be92-58df-4ea6-ade2-f90a2ade842e</ProjectGuid>
     <DockerLaunchAction>LaunchBrowser</DockerLaunchAction>
     <DockerServiceUrl>{Scheme}://localhost:{ServicePort}</DockerServiceUrl>
-    <DockerServiceName>testnanaloga1.api</DockerServiceName>
+    <DockerServiceName>testnanaloga1</DockerServiceName>
   </PropertyGroup>
   <ItemGroup>
     <None Include="docker-compose.override.yml">

@@ -1,0 +1,17 @@
+services:
+  testnanaloga1.api:
+    image: ${DOCKER_REGISTRY-}testnanaloga1api
+    container_name: zahtevek.api
+    build:
+      context: .
+      dockerfile: TestnaNaloga1/Dockerfile
+    ports:
+      - "8080:5000"  
+      - "8081:5001"  
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_HTTP_PORTS=5000
+      - ASPNETCORE_HTTPS_PORTS=5001
+    volumes:
+      - ${APPDATA}/Microsoft/UserSecrets:/home/app/.microsoft/usersecrets:ro
+      - ${APPDATA}/ASP.NET/Https:/home/app/.aspnet/https:ro

@@ -1,5 +1,8 @@
 # TESTNA APLIKACIJA
 
+Project used for  managing requests using ASP.NET Core and the Clean Arhitecture design pattern.
+The task include key functionalities for working with requests (creating, reading, updating and deleting) and the use of an InMemory database.
+
 
 ### Setup instructions
 
@@ -11,12 +14,27 @@ Before you begin, make sure that you have install docker on your local machine.
  
  1. Install docker desktop for Windows or macOS from the official [website](https://docs.docker.com/desktop/setup/install/windows-install/), then follow the instructions.
  
-	For Linux please follow instruction from this  [website](https://docs.docker.com/engine/install/).
-
- 2. Run application
 	
-	1.	Frist download-image for Aplication from dockerHub. 
+ 2. Check if you have installed [Git](https://git-scm.com/downloads).
+
+ 3. Run application
+	
+	1.	Frist Clone repository.
+		 
+		 ```console
+		git clone C:\Users\Uporabnik\source\repos\TestnaNaloga1
+		cd TestnaNaloga1
+		  ```
+	2. Run docker compose
+	
+		```console
+		docker compose up -d
+		```		
+	 
+		You can also check in docker desktop if container is up. 
+	
+	3. Open swagger on browser.
 		
-	   //TODO
+	   [http://localhost:8080/swagger/index.html](http://localhost:8080/swagger/index.html)
 
 

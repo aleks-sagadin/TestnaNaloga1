@@ -1,9 +1,9 @@
 services:
   testnanaloga1:
     image: ${DOCKER_REGISTRY-}testnanaloga1
+    container_name: zahtevek
     build:
       context: .
       dockerfile: TestnaNaloga1/Dockerfile
     ports:
       - "8080:5000"
-      - "8081:5001"

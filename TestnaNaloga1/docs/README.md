@@ -22,7 +22,7 @@ Before you begin, make sure that you have install docker on your local machine.
 	1.	Frist Clone repository.
 		 
 		 ```console
-		git clone C:\Users\Uporabnik\source\repos\TestnaNaloga1
+		git clone https://github.com/aleks-sagadin/TestnaNaloga1.git
 		cd TestnaNaloga1
 		  ```
 	2. Run docker compose
